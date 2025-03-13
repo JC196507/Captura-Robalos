@@ -120,3 +120,37 @@ table {
 table th, table td {
     white-space: nowrap;
 }
+#tabelaCapturas th:nth-child(1),
+#tabelaCapturas td:nth-child(1) {
+  width: 40px;
+}
+
+#tabelaCapturas th:nth-child(2),
+#tabelaCapturas td:nth-child(2) {
+  width: 40px;
+}
+
+#tabelaCapturas th:nth-child(3),
+#tabelaCapturas td:nth-child(3) {
+  width: 40px;
+}
+
+#tabelaCapturas th:nth-child(4),
+#tabelaCapturas td:nth-child(4) {
+  width: 40px;
+}
+
+#tabelaCapturas th:nth-child(5),
+#tabelaCapturas td:nth-child(5) {
+  width: 40px;
+}
+
+#tabelaCapturas th:nth-child(6),
+#tabelaCapturas td:nth-child(6) {
+  width: 60px;
+}
+
+#tabelaCapturas {
+    table-layout: fixed;
+    width: 100%;
+}
